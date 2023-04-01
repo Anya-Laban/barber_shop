@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work 11-12</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light header__container">
+            <div class="container-fluid header__nav-bar ">
+
+                <a class="navbar-brand header__logo" href="#"><img  src="./img/header/logo.svg" alt="logo"></a>
+
+                <button class="navbar-toggler header__navbar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav-header__items " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  nav-header__ul">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#">Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-header__item" aria-current="page" href="#contacts">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>         
+    </header>
+    <main class="main-page">
+        <div class="main-page__gallery gallery" id="gallery">
+            <div class="gallery__container _container">
+                <div class="gallery__column gallery-left">
+                    <img src="./img/gallery/left-foto.png" alt="left-foto" class="gallery-left__foto">
+                </div>
+                <div class="gallery__column gallery-center">
+                    <div class="gallery-center__left-part gallery-center__column">
+                        <img src="./img/gallery/central-blok/top-left-foto.png" alt="top-left-foto" class="left-part__top-foto gallery-center-foto">
+                        <img src="./img/gallery/central-blok/bottom-left-foto.png" alt="bottom-left-foto" class="left-part__bottom-foto gallery-center-foto">
+                    </div>
+                    <div class="gallery-center__right-part gallery-center__column">
+                        <img src="./img/gallery/central-blok/top-right-foto.png" alt="top-right-foto" class="right-part__top-foto gallery-center-foto">
+                        <img src="./img/gallery/central-blok/bottom-right-foto.png" alt="bottom-right-foto" class="right-part__bottom-foto gallery-center-foto">
+                    </div>
+                    <div class="gallery-column-center__right-part"></div>
+                </div>
+                <div class="gallery__column gallery-right">
+                    <img src="./img/gallery/right-foto.png" alt="right-foto" class="gallery-right__foto">
+                </div>
+            </div>
+        </div>
+        <div class="main-page__servises services" id="services">
+            <div class="services__container _container">
+                <div class="services__content">
+                    <div class="services__item">
+                        <img src="./img/services/Hair-Styling.png" alt="Hair Styling">
+                        <p>Hair Styling</p>
+                    </div>
+                    <div class="services__item">
+                        <img src="./img/services/Beard-Trimming.png" alt="Beard Trimming">
+                        <p>Beard Trimming</p>
+                    </div>
+
+                    <div class="services__item">
+                        <img src="./img/services/Smooth-Shave.png" alt="Smooth Shave">
+                        <p>Smooth Shave</p>
+                    </div>
+                    
+                    <div class="services__item">
+                        <img src="./img/services/Hair-Straightening.png" alt="Hair Straightening">
+                        <p>Hair Straightening</p>
+                    </div>
+                </div>
+                <div class="services__img">
+                    <img src="./img/services/main-foto.png" alt="main-foto">
+                </div>
+            </div>
+        </div>
+        <div class="main-page__team team" id="team">
+            <div class="team__container _container">
+                <h2 class="team__header">Meet Our Highly Skilled Experts</h2>
+                <div class="team__content">
+                    <div class="team__employee">
+                        <img src="./img/team/Meredith.png" alt="Meredith">
+                        <div>Meredith</div>
+                    </div>
+                    <div class="team__employee">
+                        <img src="./img/team/Jason.png" alt="Jason">
+                        <div>Jason</div>
+                    </div>
+                    <div class="team__employee">
+                        <img src="./img/team/Ryan.png" alt="Ryan">
+                        <div>Ryan</div>
+                    </div>
+                    <div class="team__employee">
+                        <img src="./img/team/James.png" alt="James">
+                        <div>James</div>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <div class="main-page__reviews reviews" id="reviews">
+            <div class="reviews__container _container">
+                <div class="reviews__content reviews-content">
+                    <h3 class="reviews-content__header">Get in touch with Us and send a Message</h3>
+                    <form class="reviews-content__form form-reviews">
+                        <div class="form-reviews__personal">
+                            <input type="text" placeholder="Name" required  name="name">
+                            <input type="email" placeholder="Email" required  name="email">
+                        </div>
+                        <div class="form-reviews__message">
+                            <input type="text" placeholder="Message" name="text">
+                        </div>
+                    </form>
+                </div>
+                <div class="reviews__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17423.95122473566!2d26.586874885135124!3d49.16536692880305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1665991048662!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="footer__container _container">
+            <div class="footer__row">
+                <a href="mailto:kumarpratiyush1405@gmail.com" class="footer__item"><span class="footer__item-title">Email :</span> kumarpratiyush1405@gmail.com</a>
+                <a href="tel:+(972) 723429834" class="footer__item"><span class="footer__item-title">Phone : </span>+(972) 723429834</a>
+                <a href="https://goo.gl/maps/rmALGw89Qnu2bU7fA" class="footer__item"><span class="footer__item-title">Headquarters :</span> 836th Avenue, 3rd Floor,<br> New York,<br> New York</a>
+            </div>
+            <div class="footer__row">
+                <div class="footer__item footer__item-title">Opening Hours</div>
+                <div class="footer__item"> Monday - Friday : 10:00 am - 05:00 pm</div>
+                <div class="footer__item">Saturday : 10:00 am - 02:00 pm</div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__item footer__item-title">Connect With Us On</div>
+                <a href="#" class="footer__item footer__insta">Instagram</a>
+                <a href="#" class="footer__item footer__facebook">Facebook</a>
+                <a href="#" class="footer__item footer__twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
